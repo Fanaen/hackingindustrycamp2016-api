@@ -2,7 +2,9 @@
 
 ### Usage
 
-Base de données : `GET https://hackingindustrycamp2016-api.scalingo.io/database.json`
+Base de données : `GET https://hackingindustrycamp2016-api.scalingo.io/database.json`.
+
+Le JSON est pretty-printed avec des `\n`, donc le plus simple est de faire "Afficher la source" (CTRL+U) dans un navigateur. Pour les vrais, il y a Postman, et CURL pour les barbus.
 
 ### Édition de données
 
