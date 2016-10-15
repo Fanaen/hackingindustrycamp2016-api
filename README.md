@@ -34,7 +34,28 @@ Le JSON est pretty-printed avec des `\n`, donc le plus simple est de faire "Affi
 
 ### [taxonomy.json](https://hackingindustrycamp2016-api.scalingo.io/taxonomy.json)
 
-@ TODO
+```json
+
+[
+    {
+        "name": "Cuisine",
+        "categories": [
+            {
+                "name": "Cong\u00e9lateur",
+                "averageConsumption": null,
+                "unit": "heure",
+                "unitCoefficient": 1,
+                "icon": null,
+                "ecoTips": []
+            }, ...
+        ]
+    },
+    {
+        "name": "Salle de bains",
+        "categories": [...]
+    }, ...
+]
+```
 
 
 ## Édition de données
