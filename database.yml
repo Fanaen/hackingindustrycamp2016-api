@@ -1,14 +1,184 @@
 subscriptions:
-    - { id: base3, type: base, power: 3, price: 4.67, low: 0.1564, high: 0.1564 }
-    - { id: base6, type: base, power: 6, price: 8.04, low: 0.1449, high: 0.1449 }
-    - { id: base9, type: base, power: 9, price: 9.28, low: 0.1462, high: 0.1462 }
-    - { id: base12, type: base, power: 12, price: 14.40, low: 0.1462, high: 0.1462 }
-    - { id: base15, type: base, power: 15, price: 16.63, low: 0.1462, high: 0.1462 }
-    - { id: hc6, type: hc, power: 6, price: 8.38, low: 0.1270, high: 0.1560 }
-    - { id: hc9, type: hc, power: 9, price: 9.79, low: 0.1270, high: 0.1560 }
-    - { id: hc12, type: hc, power: 12, price: 15.27, low: 0.1270, high: 0.1560 }
-    - { id: hc15, type: hc, power: 15, price: 17.67, low: 0.1270, high: 0.1560 }
-    #- { id: hc18, type: hc, power: 18, price: 19.99, low: 0.1270, high: 0.1560 }
-    #- { id: hc24, type: hc, power: 24, price: 41.30, low: 0.1270, high: 0.1560 }
-    #- { id: hc30, type: hc, power: 30, price: 49.98, low: 0.1270, high: 0.1560 }
-    #- { id: hc36, type: hc, power: 36, price: 58.59, low: 0.1270, high: 0.1560 }
+  - { id: base3, type: base, power: 3, price: 4.67, low: 0.1564, high: 0.1564 }
+  - { id: base6, type: base, power: 6, price: 8.04, low: 0.1449, high: 0.1449 }
+  - { id: base9, type: base, power: 9, price: 9.28, low: 0.1462, high: 0.1462 }
+  - { id: base12, type: base, power: 12, price: 14.40, low: 0.1462, high: 0.1462 }
+  - { id: base15, type: base, power: 15, price: 16.63, low: 0.1462, high: 0.1462 }
+  - { id: hc6, type: hc, power: 6, price: 8.38, low: 0.1270, high: 0.1560 }
+  - { id: hc9, type: hc, power: 9, price: 9.79, low: 0.1270, high: 0.1560 }
+  - { id: hc12, type: hc, power: 12, price: 15.27, low: 0.1270, high: 0.1560 }
+  - { id: hc15, type: hc, power: 15, price: 17.67, low: 0.1270, high: 0.1560 }
+  #- { id: hc18, type: hc, power: 18, price: 19.99, low: 0.1270, high: 0.1560 }
+  #- { id: hc24, type: hc, power: 24, price: 41.30, low: 0.1270, high: 0.1560 }
+  #- { id: hc30, type: hc, power: 30, price: 49.98, low: 0.1270, high: 0.1560 }
+  #- { id: hc36, type: hc, power: 36, price: 58.59, low: 0.1270, high: 0.1560 }
+
+units:
+  - &min 0.0166666666667
+  - &hour 1
+
+taxonomy:
+  - name: Cuisine
+    categories:
+      - name: Congélateur
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Grille-pain
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Four
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Micro-ondes
+        averageConsumption: 128
+        unit: minute
+        unitCoefficient: *min
+        icon: ~
+        ecoTips: []
+
+      - name: Cafetière
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Réfrégirateur
+        averageConsumption: 133
+        unit: Heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Hotte
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Plaque de cuisson
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Lave-vaisselle
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Robot ménager
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+
+  - name: Salle de bains
+    categories:
+       - name: Sèche-linge
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+       - name: Sèche-cheveux
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+       - name: Lave-linge
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+
+  - name: Séjour
+    categories:
+      - name: Box internet
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Ordinateur
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Hi-Fi
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Écran
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+      - name: Luminaire
+        averageConsumption: ~
+        unit: heure
+        unitCoefficient: *hour
+        icon: ~
+        ecoTips: []
+
+
+  - name: Autres
+    categories:
+       - name: Radio-réveil
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+       - name: Chauffe-eau
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+       - name: Aspirateur
+         averageConsumption: ~
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
+
+       - name: Chauffage électrique
+         averageConsumption: 1000
+         unit: heure
+         unitCoefficient: *hour
+         icon: ~
+         ecoTips: []
