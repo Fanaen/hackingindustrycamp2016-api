@@ -35,7 +35,6 @@ Le JSON est pretty-printed avec des `\n`, donc le plus simple est de faire "Affi
 ### [taxonomy.json](https://hackingindustrycamp2016-api.scalingo.io/taxonomy.json)
 
 ```json
-
 [
     {
         "name": "Cuisine",
@@ -55,6 +54,23 @@ Le JSON est pretty-printed avec des `\n`, donc le plus simple est de faire "Affi
         "categories": [...]
     }, ...
 ]
+```
+
+### products.json
+
+Pas de `GET /products.json`, seulement `GET /products.json/CODE`.
+
+Ajouter un produit :
+
+```text
+POST /products.json
+Content-Type: application/json
+
+{
+    "code": "CODE_EAN",
+    "category": "Nom de la catégorie",
+    "consumption": 42.42
+}
 ```
 
 
