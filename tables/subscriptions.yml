@@ -1,0 +1,14 @@
+subscriptions:
+    - { id: base3, type: base, power: 3, price: 4.67, low: 0.1564, high: 0.1564 }
+    - { id: base6, type: base, power: 6, price: 8.04, low: 0.1449, high: 0.1449 }
+    - { id: base9, type: base, power: 9, price: 9.28, low: 0.1462, high: 0.1462 }
+    - { id: base12, type: base, power: 12, price: 14.40, low: 0.1462, high: 0.1462 }
+    - { id: base15, type: base, power: 15, price: 16.63, low: 0.1462, high: 0.1462 }
+    - { id: hc6, type: hc, power: 6, price: 8.38, low: 0.1270, high: 0.1560 }
+    - { id: hc9, type: hc, power: 9, price: 9.79, low: 0.1270, high: 0.1560 }
+    - { id: hc12, type: hc, power: 12, price: 15.27, low: 0.1270, high: 0.1560 }
+    - { id: hc15, type: hc, power: 15, price: 17.67, low: 0.1270, high: 0.1560 }
+    - { id: hc18, type: hc, power: 18, price: 19.99, low: 0.1270, high: 0.1560 }
+    - { id: hc24, type: hc, power: 24, price: 41.30, low: 0.1270, high: 0.1560 }
+    - { id: hc30, type: hc, power: 30, price: 49.98, low: 0.1270, high: 0.1560 }
+    - { id: hc36, type: hc, power: 36, price: 58.59, low: 0.1270, high: 0.1560 }
