@@ -7,7 +7,7 @@ use Symfony\Component\Yaml\Yaml;
 const DB_YAML = __DIR__.'/database.yml';
 const DB_JSON = __DIR__.'/database.compiled.json';
 
-$app = new Silex\Application();
+$app = new Silex\Application;
 
 $app['debug'] = getenv('SILEX_PROD') == false;
 
