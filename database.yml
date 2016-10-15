@@ -8,7 +8,7 @@ subscriptions:
     - { id: hc9, type: hc, power: 9, price: 9.79, low: 0.1270, high: 0.1560 }
     - { id: hc12, type: hc, power: 12, price: 15.27, low: 0.1270, high: 0.1560 }
     - { id: hc15, type: hc, power: 15, price: 17.67, low: 0.1270, high: 0.1560 }
-    - { id: hc18, type: hc, power: 18, price: 19.99, low: 0.1270, high: 0.1560 }
-    - { id: hc24, type: hc, power: 24, price: 41.30, low: 0.1270, high: 0.1560 }
-    - { id: hc30, type: hc, power: 30, price: 49.98, low: 0.1270, high: 0.1560 }
-    - { id: hc36, type: hc, power: 36, price: 58.59, low: 0.1270, high: 0.1560 }
+    #- { id: hc18, type: hc, power: 18, price: 19.99, low: 0.1270, high: 0.1560 }
+    #- { id: hc24, type: hc, power: 24, price: 41.30, low: 0.1270, high: 0.1560 }
+    #- { id: hc30, type: hc, power: 30, price: 49.98, low: 0.1270, high: 0.1560 }
+    #- { id: hc36, type: hc, power: 36, price: 58.59, low: 0.1270, high: 0.1560 }

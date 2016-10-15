@@ -11,27 +11,25 @@ Le JSON est pretty-printed avec des `\n`, donc le plus simple est de faire "Affi
 ### [subscriptions.json](https://hackingindustrycamp2016-api.scalingo.io/subscriptions.json)
 
 ```json
-{
-    "subscriptions": [
-        {
-            "id": "base3",
-            "type": "base",
-            "power": 3,
-            "price": 4.67,
-            "low": 0.1564,
-            "high": 0.1564
-        },
-        {
-            "id": "hc6",
-            "type": "hc",
-            "power": 6,
-            "price": 8.38,
-            "low": 0.127,
-            "high": 0.156
-        },
-        ...
-    ]
-}
+[
+    {
+        "id": "base3",
+        "type": "base",
+        "power": 3,
+        "price": 4.67,
+        "low": 0.1564,
+        "high": 0.1564
+    },
+    {
+        "id": "hc6",
+        "type": "hc",
+        "power": 6,
+        "price": 8.38,
+        "low": 0.127,
+        "high": 0.156
+    },
+    ...
+]
 ```
 
 ### [taxonomy.json](https://hackingindustrycamp2016-api.scalingo.io/taxonomy.json)
