@@ -1,2 +1,17 @@
 # hackingindustrycamp2016-api
-Coffee &amp; Code
+
+### Usage
+
+Base de données : `GET https://hackingindustrycamp2016-api.scalingo.io/database.json`
+
+### Édition de données
+
+Éditer le fichier YAML `database.yml`. Les structures de données sont les mêmes qu'en JSON (object, array, number, string), plus quelques notations spéciales cool, parce que JSON c'est quand-même un peu faible.
+
+[[ [Cheat Sheet YAML](https://gist.github.com/jonschlinkert/5170877) ]]
+
+Attention à bien respecter la structure des données mise en place.
+
+**Indenter avec des espaces ! Sinon FATAL PARSE ERROR UNRECOVERABLE ERROR hein. Vous aurez tout cassé et toute l'équipe vous en voudra.**
+
+Ensuite, commiter les changements et pusher. Déploiement automatique.
