@@ -1,0 +1,16 @@
+{
+    "name": "toverux/hackingindustrycamp2016-api",
+    "description": "Coffee & Code",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morgan Touverey-Quilling",
+            "email": "mtouverey@methodinthemadness.eu"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/yaml": "^3.1"
+    }
+}
